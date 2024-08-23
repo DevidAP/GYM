@@ -1,0 +1,29 @@
+.nutrition-container {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #fafafa;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .meal {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #ece9e9;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    color: #eadede;
+  }
+  

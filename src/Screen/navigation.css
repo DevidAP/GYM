@@ -1,0 +1,33 @@
+.navbar {
+    background: #f87171; /* Fondo de color #f87171 */
+    padding: 15px;
+    border-bottom: solid 2px;
+
+}
+
+.navbar-brand, .nav-link {
+    text-decoration: none; /* Elimina subrayado y decoraciones */
+    color: #a44040; /* Color del texto en blanco */
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: color 0.3s ease;
+}
+
+/* Efecto hover en los enlaces */
+.nav-link:hover {
+    color: #333; /* Color al pasar el ratón */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Ajustes específicos para el botón de toggle en modo colapsado */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%288%2C 8%2C 8%2C 0.8%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Ajustes para mantener la estética al colapsar la navbar */
+.navbar-collapse {
+    justify-content: flex-end;
+}

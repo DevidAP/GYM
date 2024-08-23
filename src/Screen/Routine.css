@@ -1,0 +1,30 @@
+.routines-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Tres columnas iguales */
+  gap: 20px; /* Espacio entre las columnas */
+  align-items: center;
+}
+
+.routine-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.routine-card h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.routine-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.routine-card li {
+  font-size: 18px;
+  color: #555;
+}
